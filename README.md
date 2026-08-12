@@ -11,7 +11,8 @@ Solución de las actividades P1–P8 del caso "Sistema de Gestión de Pedidos", 
 │   ├── p1_clases.png                 # Diagrama de clases UML (P1)
 │   ├── p2_actividades.png            # Diagrama de actividades UML (P2)
 │   ├── p3_estados.png                # Máquina de estados UML (P3)
-│   └── evaluacion_formativa.png      # Evidencia de la evaluación en el SGA
+│   ├── evaluacion_formativa.png      # Evidencia de la evaluación en el SGA
+│   └── revision_intento.png          # Evidencia de revisión/intento de la prueba
 ├── PruebaPractica_UnidadIV.pdf       # PDF compilado (entregable final)
 └── README.md                         # Este archivo
 ```
@@ -52,16 +53,14 @@ No requiere `babel` para la compilación actual.
 
 ## Compilación
 
-El archivo principal es **`main.tex`**. Se compila con **pdflatex**, ejecutando el comando dos veces
-para asegurar que los índices y referencias internas (tabla de contenidos, hyperref) queden resueltos:
+El archivo principal es **`main.tex`**. Se compila con **pdflatex**, ejecutando el comando dos veces para asegurar que los índices y referencias internas (tabla de contenidos, hyperref) queden resueltos:
 
 ```bash
 pdflatex -interaction=nonstopmode main.tex
 pdflatex -interaction=nonstopmode main.tex
 ```
 
-Esto genera `main.pdf` en la raíz del repositorio (el entregable subido al LMS corresponde a este
-mismo archivo, renombrado como `PruebaPractica_UnidadIV.pdf`).
+Esto genera `main.pdf` en la raíz del repositorio (el entregable subido al LMS corresponde a este mismo archivo, renombrado como `PruebaPractica_UnidadIV.pdf`).
 
 ### Alternativa con latexmk
 
